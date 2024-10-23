@@ -1,0 +1,37 @@
+{
+    "name": "gabsdsousa/expense-trackr",
+    "description": "This is a simple and efficient REST API built with pure PHP, designed to help users track their income and expenses.",
+    "type": "project",
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/http-foundation": "^7.1",
+        "symfony/routing": "^7.1",
+        "illuminate/database": "^11.26"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.2",
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "fakerphp/faker": "^1.23",
+        "mockery/mockery": "^1.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gabsdsousa\\ExpenseTrackr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GabrielDSousa",
+            "email": "gabrielramos.email@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
